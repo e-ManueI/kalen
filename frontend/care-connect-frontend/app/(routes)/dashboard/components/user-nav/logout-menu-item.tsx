@@ -17,7 +17,7 @@ export function LogoutMenuItem() {
         title: "Logged out",
         description: "You have successfully logged out!",
       });
-      router.push("auth/login");
+      router.push("/auth/login");
     } catch (error) {
       console.error("Logout failed:", error);
       toast({
