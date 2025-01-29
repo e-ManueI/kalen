@@ -4,9 +4,9 @@ export const sampleSessionPayload: SessionPayload = {
   id: "12345",
   first_name: "John",
   phone_number: "1234567890",
-  last_name: new Date("1990-06-15"), // Assuming this represents the user's date of birth
+  last_name: "Doe",
   email: "john.doe@example.com",
-  user_type: "admin", // Example user type
+  user_type: "admin",
   access:
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.sampleAccessTokenPayload.sampleSignature",
   refresh:
